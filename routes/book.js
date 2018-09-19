@@ -10,7 +10,7 @@ router.get("/Books",function(req, res){
     if(err){
       console.log(err);
     }else{
-      res.send(books);
+      res.json(books);
     }
   });  
 });
@@ -39,7 +39,7 @@ router.post("/Books",function(req, res){
   		console.log(err)
   	}else{
   		books.save();
-        res.send(books)
+       res.json(books);
   	}
       });
 });
@@ -53,7 +53,7 @@ router.put("/Books/:id", function(req, res){
      if(err){
     console.log(err)
 } else{
-  res.send(updateBooks);
+  res.json(updateBooks);
   console.log(updateBooks)
   }
    });
