@@ -10,8 +10,8 @@
  
 - Open postman  Make a `POST` request to `localhost:3000/api/Books`
 - `GET` request to `localhost:3000/api/Books`
-- `PUT` request to localhost:3000/api/Books/:id
-- `DELETE` request to localhost:3000/api/Books/:id
+- `PUT` request to `localhost:3000/api/Books/:id`
+- `DELETE` request to `localhost:3000/api/Books/:id`
 
 
 
