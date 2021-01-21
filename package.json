@@ -32,7 +32,7 @@
     "path": "^0.12.7",
     "request": "^2.83.0",
     "requestify": "^0.2.5",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "logger": "0.0.1",
